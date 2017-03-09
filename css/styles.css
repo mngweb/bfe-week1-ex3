@@ -20,10 +20,9 @@ ul{
     height: 100vh;
     position: fixed;
     top: 0;
-    left: 0;
+    left: -150px;
     z-index: 999;    
     opacity: 0;
-    left: -150px;
     font-weight: bold;
     font-family: Arial;
 }
