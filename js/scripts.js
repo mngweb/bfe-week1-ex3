@@ -13,7 +13,7 @@
             $(this).toggleClass('click', !isVisible);
 
 
-            nav.stop().slideToggle(500).transit({
+            nav.stop().slideToggle(500).transition({
                 //opacity: "toggle",       //nie działa?
                 opacity: !isVisible ? 1 : 0,
                 left: !isVisible ? 0 : -navWidth
